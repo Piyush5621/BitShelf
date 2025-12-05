@@ -30,7 +30,7 @@ export default function BitShelfProductSlider() {
   ];
 
   return (
-    <div className="w-full mt-10">
+    <div className="w-full ">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={1}
@@ -74,7 +74,7 @@ export default function BitShelfProductSlider() {
               </div>
 
               {/* RIGHT IMAGE PREVIEW */}
-              <div className="w-[50%] bg-gradient-to-br from-indigo-100/40 to-purple-100/20 flex p-6 items-center justify-center">
+              <div className="w-[50%] bg-linear-to-br from-indigo-100/40 to-purple-100/20 flex p-6 items-center justify-center">
                 <img
                   src={p.image}
                   alt={p.title}
